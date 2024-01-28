@@ -1,3 +1,17 @@
+Website Blog yang dibuat dengan menggunakan:
+1. Laravel v10.3.2
+2. Bootstrap v5.3
+3. Bootstrap Icons v1.11.3
+4. PHP v8.2.12
+5. MariaDB v10.4.32
+6. Trix Editor = https://github.com/basecamp/trix
+
+-Telah mengadaptasi fungsi CRUD pada postingan.
+-User perlu login terlebih dahulu sebelum membuat/mengubah/menghapus postingannya sendiri.
+-Terdapat 2 tingkatan authorization yaitu admin dan user.
+-Tampilan dashboard admin dan user berbeda. Admin memiliki hak akses lebih luas, walaupun saat ini masih hanya dapat mengakses menu "atur kategori".
+-Teman-teman bisa menambahkan admin baru dengan cara mengubah value is_admin pada table users menjadi true(1) di baris user yang diinginkan.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
