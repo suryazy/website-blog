@@ -1,4 +1,4 @@
-Website Blog yang dibuat dengan menggunakan:
+## Website Blog yang dibuat dengan menggunakan:
 1. Laravel v10.3.2
 2. Bootstrap v5.3
 3. Bootstrap Icons v1.11.3
@@ -6,8 +6,7 @@ Website Blog yang dibuat dengan menggunakan:
 5. MariaDB v10.4.32
 6. Trix Editor = https://github.com/basecamp/trix
 
-
-
+## Fitur Website
 - Telah mengadaptasi fungsi CRUD pada postingan.
 - User perlu login terlebih dahulu sebelum membuat/mengubah/menghapus postingannya sendiri.
 - Terdapat 2 tingkatan authorization yaitu admin dan user.
